@@ -1,6 +1,6 @@
 # Description
-Here I'll upload the projects of machine learning and deep learning and try to explain every key step I take throughout the whole projects.
 
+Here Some I've some Notebooks of ML and DL from my inventory
 
 ## subHeader
 
