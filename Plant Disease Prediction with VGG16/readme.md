@@ -3,4 +3,4 @@
 ## Link for the dataset: 
 **Kaggle**: ["New Plant Diseases Dataset"](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
-**Drive (unzipped)**: https://drive.google.com/file/d/1HsFwS_ZJec_t-iaoARPQ2ThISJ-4ZOZD/view?usp=sharing
+**Drive (unzipped)**: [Google Drive](https://drive.google.com/file/d/1HsFwS_ZJec_t-iaoARPQ2ThISJ-4ZOZD/view?usp=sharing)
