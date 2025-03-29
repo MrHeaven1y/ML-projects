@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TensorFlow Image Classifier</h1>
+            <p class="subtitle">Classify 256x256 images with advanced deep learning</p>
+        </header>
+        
+        <main>
+            <div class="upload-section">
+                <div class="upload-container" id="upload-container">
+                    <div class="upload-content" id="upload-content">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Drag & drop an image or click to browse</p>
+                        <small>Supports JPG, PNG, WEBP (max 5MB)</small>
+                    </div>
+                    <input type="file" id="file-input" accept="image/*">
+                </div>
+                
+                <div class="options-container">
+                    <label class="option">
+                        <input type="checkbox" id="enhance-checkbox">
+                        <span>Apply image enhancement</span>
+                        <span class="tooltip" data-tooltip="Applies adaptive contrast enhancement and noise reduction">?</span>
+                    </label>
+                </div>
+                
+                <button id="classify-btn" class="button-primary" disabled>Classify Image</button>
+            </div>
+            
+            <div class="preview-section">
+                <div class="image-preview">
+                    <h3>Image Preview</h3>
+                    <div class="preview-container">
+                        <img id="preview-image" src="" alt="Preview">
+                        <div class="dimensions-overlay" id="dimensions-display"></div>
+                    </div>
+                </div>
+                
+                <div class="results-container" id="results-container">
+                    <h3>Classification Results</h3>
+                    <div class="results-content" id="results-content">
+                        <div class="skeleton-loader">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-bar"></div>
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-bar"></div>
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <div class="loading-overlay" id="loading-overlay">
+            <div class="spinner"></div>
+            <p>Processing image...</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

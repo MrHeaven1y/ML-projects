@@ -1,0 +1,6 @@
+tensorflow>=2.0
+pillow
+opencv-python
+numpy
+flask
+flask-cors
