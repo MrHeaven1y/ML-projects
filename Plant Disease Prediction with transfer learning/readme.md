@@ -113,6 +113,8 @@ def predict_image(img_path, model):
 - NumPy
 - Matplotlib (for visualization)
 - KaggleHub (for dataset access)
+All the dependencies are in the requirements.txt except KaggleHub because one may download the dataset in the local machine.
+then run run_server.py it'll start the server
 
 ## Future Improvements
 
