@@ -1,1 +1,2 @@
 *.keras filter=lfs diff=lfs merge=lfs -text
+Plant[[:space:]]Disease[[:space:]]Prediction[[:space:]]with[[:space:]]transfer[[:space:]]learning/backend/artifacts/*.keras filter=lfs diff=lfs merge=lfs -text
